@@ -1,0 +1,25 @@
+
+.main-header {
+  background-color: teal;     
+  padding: 15px 40px;
+  display: flex;
+  justify-content: flex-end;           /* 🔧 align to right */
+}
+
+.nav-links {
+  display: flex;
+  gap: 40px;                            /* 🔧 equal spacing */
+}
+
+.nav-link {
+  color: white;                         /* 🔧 white text */
+  text-decoration: none;                /* 🔧 no underline */
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.nav-link:hover {
+  color: lightblue;                     /* Optional: hover effect */
+}
+
+

@@ -1,7 +1,9 @@
+/* Existing styles */
 .App {
   text-align: center;
 }
 
+/* Remove or adjust logo styles if you don't use the logo */
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -13,9 +15,10 @@
   }
 }
 
+/* Updated App-header for your header */
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  /* Remove min-height 100vh to avoid full screen on header */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,10 +27,53 @@
   color: white;
 }
 
+/* New styles for full height layout */
+html, body, #root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content-wrapper {
+  flex: 1; /* grow to fill space between header and footer */
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: #f8f9fa; /* optional light bg */
+}
+
+/* Footer styles */
+.footer {
+  background-color: black;
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .icon {
+  color: white;
+  font-size: 28px; /* medium size */
+  margin: 0 15px;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.footer .icon:hover {
+  color: lightblue;
+}
+
+/* Existing link styles */
 .App-link {
   color: #61dafb;
 }
 
+/* Animation keyframes */
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
