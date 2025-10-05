@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/nvtech/static/css/main.034f63c2.css",
+    "main.js": "/nvtech/static/js/main.d6afe3ed.js",
+    "static/js/453.019bc968.chunk.js": "/nvtech/static/js/453.019bc968.chunk.js",
+    "static/media/menupageupdate.jpg": "/nvtech/static/media/menupageupdate.b0aa5e32dae1eeed0cac.jpg",
+    "static/media/aboutimage.jpg": "/nvtech/static/media/aboutimage.1e713062af544b5ae1cc.jpg",
+    "static/media/services-icon.png": "/nvtech/static/media/services-icon.e29d807cfcff7c3581b6.png",
+    "static/media/salespageupdate.jpg": "/nvtech/static/media/salespageupdate.2efd091c04f6fa6a8a89.jpg",
+    "static/media/planning-icon.png": "/nvtech/static/media/planning-icon.5fbc9c78e2111f3faaf0.png",
+    "static/media/project-icon.png": "/nvtech/static/media/project-icon.e449662c636c51132864.png",
+    "static/media/support-icon.png": "/nvtech/static/media/support-icon.0623b457280b9a02e225.png",
+    "static/media/sale-icon.png": "/nvtech/static/media/sale-icon.c022ee5cca257e137083.png",
+    "index.html": "/nvtech/index.html",
+    "main.034f63c2.css.map": "/nvtech/static/css/main.034f63c2.css.map",
+    "main.d6afe3ed.js.map": "/nvtech/static/js/main.d6afe3ed.js.map",
+    "453.019bc968.chunk.js.map": "/nvtech/static/js/453.019bc968.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.034f63c2.css",
+    "static/js/main.d6afe3ed.js"
+  ]
+}
