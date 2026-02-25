@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nvtech/static/css/main.034f63c2.css",
-    "main.js": "/nvtech/static/js/main.fe916e90.js",
+    "main.js": "/nvtech/static/js/main.d70c2bd0.js",
     "static/js/453.019bc968.chunk.js": "/nvtech/static/js/453.019bc968.chunk.js",
     "static/media/menupageupdate.jpg": "/nvtech/static/media/menupageupdate.b0aa5e32dae1eeed0cac.jpg",
     "static/media/aboutimage.jpg": "/nvtech/static/media/aboutimage.1e713062af544b5ae1cc.jpg",
@@ -13,11 +13,11 @@
     "static/media/sale-icon.png": "/nvtech/static/media/sale-icon.c022ee5cca257e137083.png",
     "index.html": "/nvtech/index.html",
     "main.034f63c2.css.map": "/nvtech/static/css/main.034f63c2.css.map",
-    "main.fe916e90.js.map": "/nvtech/static/js/main.fe916e90.js.map",
+    "main.d70c2bd0.js.map": "/nvtech/static/js/main.d70c2bd0.js.map",
     "453.019bc968.chunk.js.map": "/nvtech/static/js/453.019bc968.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.034f63c2.css",
-    "static/js/main.fe916e90.js"
+    "static/js/main.d70c2bd0.js"
   ]
 }
