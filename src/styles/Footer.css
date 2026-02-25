@@ -5,18 +5,34 @@
   justify-content: center;
 }
 
-.social-icons {
-  display: flex;
-  gap: 30px;
+.footer-links {
+  text-align: left;
+  margin-right: 40px; /* spacing from social icons */
 }
 
-.icon {
-  color: white;
-  font-size: 28px;  /* medium size */
+.footer-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: white; /* title stays white on teal background */
+  margin-bottom: 10px;
+}
+
+.footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-links ul li {
+  margin: 6px 0;
+}
+
+.footer-links ul li a {
+  color: white; /* links are white on teal background */
+  text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.icon:hover {
-  color: lightblue;
-  cursor: pointer;
+.footer-links ul li a:hover {
+  color: lightblue; /* hover effect matches your icons */
 }

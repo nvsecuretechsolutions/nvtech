@@ -14,7 +14,7 @@ const AboutPage = () => {
       {/* Single paragraph (no spacing between lines) */}
       <div className="about-content">
         <p>
-           In a world where business continuity and data integrity are paramount, NS TECH SOLUTIONS offers more than just security; we deliver peace of mind. Our expertly engineered systems—from enterprise-grade IP surveillance that monitors every detail, to intelligent biometric and door access controls that secure your critical spaces, and high-performance networking and PA systems that foster seamless communication—are all built to protect your people, assets, and future. We don't just install technology; we build a resilient foundation that empowers your business to thrive in any environment.        </p>
+           In a world where business continuity and data integrity are paramount, N Security Tech Solutions offers more than just security; we deliver peace of mind. Our expertly engineered systems—from enterprise-grade IP surveillance that monitors every detail, to intelligent biometric and door access controls that secure your critical spaces, and high-performance networking and PA systems that foster seamless communication—are all built to protect your people, assets, and future. We don't just install technology; we build a resilient foundation that empowers your business to thrive in any environment.        </p>
       </div>
     </div>
   );

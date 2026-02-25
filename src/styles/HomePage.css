@@ -61,3 +61,25 @@
   text-align: center;
   color: black;    /* changed text color to black */
 }
+
+/* Intro section styles */
+.intro-section {
+  background-color: rgba(0, 128, 128, 0.85); /* teal overlay with slight transparency */
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 900px;
+  width: 100%;
+  margin-top: 40px;
+  color: white;
+  text-align: left;
+  line-height: 1.6;
+}
+
+.intro-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ffffff; /* keep title white */
+  text-align: center; /* center the title */
+}
+

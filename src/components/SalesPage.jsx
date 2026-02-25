@@ -13,9 +13,6 @@ import CpPlusHdImg from '../assets/cpplus-hd.jpg';
 import UniviewHdImg from '../assets/uniview-hd.jpg';
 import PrizorHdImg from '../assets/prizor-hd.jpg';
 
-import Ezviz2mpImg from '../assets/ezviz-2mp.jpg';
-import Ezviz4mpImg from '../assets/ezviz-4mp.jpg';
-import EzvizH9cImg from '../assets/ezviz-h9c.jpg';
 import CpPlusWirelessImg from '../assets/cpplus-wireless.jpg';
 
 // Grouped packages by category
@@ -23,19 +20,18 @@ const groupedPackages = {
   "IP Camera Combo Packages": [
     {
       brand: 'Hikvision',
-      price: '₹60,000',
       details: [
-        '8 Channel NVR',
-        '2MP IP Cameras (8 Nos)',
-        '8ch POE Switch',
-        '1TB HDD',
-        '305m Cat6 Cable',
+        'DVR',
+        'Cameras',
+        'Hdd',
+        'Power supply',
+        '3+1 Cable',
+        'Accessories'
       ],
       image: HikvisionIpImg,
     },
     {
       brand: 'CP PLUS',
-      price: '₹58,999',
       details: [
         '8 Channel NVR',
         '2MP IP Cameras (8 Nos)',
@@ -47,7 +43,6 @@ const groupedPackages = {
     },
     {
       brand: 'Uniview',
-      price: '₹56,999',
       details: [
         '16 Channel NVR',
         '2MP IP Cameras (16 Nos)',
@@ -59,7 +54,6 @@ const groupedPackages = {
     },
     {
       brand: 'Prizor',
-      price: '₹52,999',
       details: [
         '16 Channel NVR',
         '2MP IP Cameras (16 Nos)',
@@ -73,7 +67,6 @@ const groupedPackages = {
   "HD / Analog Camera Combo Packages": [
     {
       brand: 'Hikvision',
-      price: '₹58,999',
       details: [
         '16 Channel DVR',
         '2MP HD/Analog Cameras (16 Nos)',
@@ -85,7 +78,6 @@ const groupedPackages = {
     },
     {
       brand: 'CP PLUS',
-      price: '₹36,999',
       details: [
         '16 Channel DVR',
         '2MP HD/Analog Cameras (16 Nos)',
@@ -97,7 +89,6 @@ const groupedPackages = {
     },
     {
       brand: 'Uniview',
-      price: '₹35,999',
       details: [
         '8 Channel DVR',
         '2MP HD/Analog Cameras (8 Nos)',
@@ -109,7 +100,6 @@ const groupedPackages = {
     },
     {
       brand: 'Prizor',
-      price: '₹30,999',
       details: [
         '8 Channel DVR',
         '2MP HD/Analog Cameras (8 Nos)',
@@ -122,44 +112,7 @@ const groupedPackages = {
   ],
   "Wireless Cameras": [
     {
-      brand: 'EZVIZ',
-      price: '₹2,499',
-      details: [
-        'Model: C6N',
-        '2MP',
-        'Lens: 4mm@F2.4',
-        '64GB Memory Card',
-        'Two Ways Audio',
-      ],
-      image: Ezviz2mpImg,
-    },
-    {
-      brand: 'EZVIZ',
-      price: '₹6,499',
-      details: [
-        'Model: C6N',
-        '4MP',
-        'Lens: 4mm@F1.6',
-        '64GB Memory Card',
-        'Two Ways Audio',
-      ],
-      image: Ezviz4mpImg,
-    },
-    {
-      brand: 'EZVIZ',
-      price: '₹9,499',
-      details: [
-        'Model: H9C',
-        '5MP+5MP 4K',
-        'Pan: 350°, Tilt: 80°',
-        '64GB Memory Card',
-        'Two Ways Audio',
-      ],
-      image: EzvizH9cImg,
-    },
-    {
       brand: 'CP Plus',
-      price: '₹6,499',
       details: [
         'Model: CP-E31Q',
         '3MP Smart Motion detection',
@@ -182,7 +135,7 @@ const SalesPage = () => {
           {items.map((pkg, index) => (
             <div className="sales-section" key={index}>
               <div className="sales-content">
-                <h3>{pkg.brand} – {pkg.price}</h3>
+                <h3>{pkg.brand}</h3>
                 <ul>
                   {pkg.details.map((detail, i) => (
                     <li key={i}>{detail}</li>

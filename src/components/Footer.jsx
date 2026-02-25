@@ -1,10 +1,23 @@
+// Footer.js
 import React from 'react';
 import '../styles/Footer.css';
 import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook } from 'react-icons/fa';
+import { Link } from 'react-router-dom'; // Import Link for navigation
 
 const Footer = () => {
   return (
     <footer className="footer">
+      <div className="footer-links">
+        <h3 className="footer-title">Useful Links</h3>
+        <ul>
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/menu">Menu</Link></li>
+          <li><Link to="/sales">Sales</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+        </ul>
+      </div>
+
       <div className="social-icons">
         <a href="https://www.instagram.com/nvsecuretech4all/" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="icon" />
