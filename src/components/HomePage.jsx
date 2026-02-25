@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';  // Import Link from react-router-dom
 import '../styles/HomePage.css';
 
 // Import your custom icons (update paths as needed)
@@ -9,11 +10,11 @@ import ServicesIcon from '../assets/services-icon.png';
 import SupportIcon from '../assets/support-icon.png';
 
 const icons = [
-  { label: 'Sales', icon: <img src={SaleIcon} alt="Sales" className="custom-icon" /> },
-  { label: 'Planning', icon: <img src={PlanningIcon} alt="Planning" className="custom-icon" /> },
-  { label: 'Project Execution', icon: <img src={ProjectIcon} alt="Project Execution" className="custom-icon" /> },
-  { label: 'Services', icon: <img src={ServicesIcon} alt="Services" className="custom-icon" /> },
-  { label: 'Customer Support', icon: <img src={SupportIcon} alt="Customer Support" className="custom-icon" /> },
+  { label: 'Sales', icon: SaleIcon, path: '/sales' },
+  { label: 'Planning', icon: PlanningIcon },
+  { label: 'Project Execution', icon: ProjectIcon },
+  { label: 'Services', icon: ServicesIcon, path: '/Menu' },
+  { label: 'Customer Support', icon: SupportIcon, path: '/Contact' },
 ];
 
 const HomePage = () => {
@@ -21,17 +22,17 @@ const HomePage = () => {
     <div className="home-container">
       {/* Welcome section */}
       <div className="overlay">
-        <h1 className="main-title">Welcome to NV Secure Tech Solutions!</h1>
+        <h1 className="main-title">Welcome to NS Tech Solutions!</h1>
       </div>
 
       {/* Icons section */}
       <div className="icon-section">
         <div className="icon-row">
-          {icons.map(({ label, icon }) => (
-            <div className="icon-item" key={label}>
-              {icon}
+          {icons.map(({ label, icon, path }) => (
+            <Link to={path} className="icon-item" key={label}>
+              <img src={icon} alt={label} className="custom-icon" />
               <div className="icon-label">{label}</div>
-            </div>
+            </Link>
           ))}
         </div>
       </div>

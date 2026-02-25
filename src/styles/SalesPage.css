@@ -1,16 +1,49 @@
-/* Add this to your CSS file, e.g., SalesPage.css */
-
-.salespage-container {
- 
-  justify-content: center;
-  align-items: center;
-  padding: 2rem;
-  background-color: #f9f9f9; /* Optional: light background */
+.sales-container {
+  padding: 20px;
 }
 
-.salespage-image {
+.page-title {
+  text-align: center;
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.sales-section {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
+.sales-content {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.sales-content h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.sales-content h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.sales-content ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.sales-image {
+  flex: 1;
+  text-align: center;
+}
+
+.sales-image img {
   max-width: 100%;
   height: auto;
-  border-radius: 8px; /* Optional: rounded corners */
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: subtle shadow */
+  border-radius: 8px;
 }
