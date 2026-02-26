@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/nvtech/static/css/main.85303400.css",
-    "main.js": "/nvtech/static/js/main.8e225369.js",
+    "main.js": "/nvtech/static/js/main.cf601c2f.js",
     "static/js/453.019bc968.chunk.js": "/nvtech/static/js/453.019bc968.chunk.js",
     "static/media/networking.jpg": "/nvtech/static/media/networking.bfb73dc47d78f39a776c.jpg",
     "static/media/hikvision-ip.jpg": "/nvtech/static/media/hikvision-ip.95fa5e149e08b912fa23.jpg",
@@ -26,11 +26,11 @@
     "static/media/hikvision-hd.jpg": "/nvtech/static/media/hikvision-hd.4d218f8c9c6f879865ec.jpg",
     "index.html": "/nvtech/index.html",
     "main.85303400.css.map": "/nvtech/static/css/main.85303400.css.map",
-    "main.8e225369.js.map": "/nvtech/static/js/main.8e225369.js.map",
+    "main.cf601c2f.js.map": "/nvtech/static/js/main.cf601c2f.js.map",
     "453.019bc968.chunk.js.map": "/nvtech/static/js/453.019bc968.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.85303400.css",
-    "static/js/main.8e225369.js"
+    "static/js/main.cf601c2f.js"
   ]
 }
