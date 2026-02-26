@@ -1,6 +1,6 @@
 // App.js
 import React, { useEffect } from 'react';
-import { HashRouter as Router, Routes, Route, useNavigate } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, useNavigate } from 'react-router-dom'; 
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HomePage from './components/HomePage';
@@ -27,7 +27,7 @@ function RedirectHandler() {
 
 function App() {
   return (
-    <Router basename="/nvtech">
+    <Router basename="/nvtech"> {/* remove basename if deployed at root */}
       <RedirectHandler />
       <div className="app-container">
         <Header />
@@ -38,6 +38,7 @@ function App() {
             <Route path="/sales" element={<SalesPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="*" element={<HomePage />} /> {/* fallback */}
           </Routes>
         </div>
         <Footer />
