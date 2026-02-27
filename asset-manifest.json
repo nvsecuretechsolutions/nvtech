@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/nvtech/static/css/main.aea8dca4.css",
-    "main.js": "/nvtech/static/js/main.721aecf3.js",
+    "main.css": "/nvtech/static/css/main.9ed026da.css",
+    "main.js": "/nvtech/static/js/main.549c40c6.js",
     "static/js/453.019bc968.chunk.js": "/nvtech/static/js/453.019bc968.chunk.js",
     "static/media/LaptopDesktop.jpg": "/nvtech/static/media/LaptopDesktop.fea5dfc20c56046708e6.jpg",
     "static/media/AMCServices.jpg": "/nvtech/static/media/AMCServices.d1eb1bec21c6dd3e2a23.jpg",
     "static/media/networking.jpg": "/nvtech/static/media/networking.bfb73dc47d78f39a776c.jpg",
+    "static/media/aboutimage.jpg": "/nvtech/static/media/aboutimage.7897750cfde17edcfc32.jpg",
     "static/media/hikvision-ip.jpg": "/nvtech/static/media/hikvision-ip.95fa5e149e08b912fa23.jpg",
-    "static/media/aboutimage.jpg": "/nvtech/static/media/aboutimage.1e713062af544b5ae1cc.jpg",
     "static/media/door-access.jpg": "/nvtech/static/media/door-access.c516f31b9bbe92e6f813.jpg",
     "static/media/switches.jpg": "/nvtech/static/media/switches.890b693c89b6b2cca25b.jpg",
     "static/media/settings.jpg": "/nvtech/static/media/settings.bd42d8a6a3ae0a90c101.jpg",
@@ -28,12 +28,12 @@
     "static/media/cpplus-hd.jpg": "/nvtech/static/media/cpplus-hd.a82d515780c97d1af3be.jpg",
     "static/media/hikvision-hd.jpg": "/nvtech/static/media/hikvision-hd.4d218f8c9c6f879865ec.jpg",
     "index.html": "/nvtech/index.html",
-    "main.aea8dca4.css.map": "/nvtech/static/css/main.aea8dca4.css.map",
-    "main.721aecf3.js.map": "/nvtech/static/js/main.721aecf3.js.map",
+    "main.9ed026da.css.map": "/nvtech/static/css/main.9ed026da.css.map",
+    "main.549c40c6.js.map": "/nvtech/static/js/main.549c40c6.js.map",
     "453.019bc968.chunk.js.map": "/nvtech/static/js/453.019bc968.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aea8dca4.css",
-    "static/js/main.721aecf3.js"
+    "static/css/main.9ed026da.css",
+    "static/js/main.549c40c6.js"
   ]
 }
