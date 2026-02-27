@@ -37,22 +37,22 @@ const services = [
   {
     title: 'Seamless Wi-Fi Access Point Setup for Smarter Connectivity',
     image: WifiImg,
-    description: `Stay connected without interruptions! At N Security Tech Solutions, we provide professional Wi-Fi Access Point installation and configuration services that deliver strong, reliable wireless coverage for every corner of your space. Whether it’s an office, hotel, school, or warehouse, our team ensures your network runs fast, secure, and smooth — with no dead zones or dropouts. We configure your access points with optimized settings for speed, coverage, and security, including channel tuning, bandwidth control, and device management. From single AP setups to enterprise-level mesh and managed Wi-Fi systems, we make your wireless network powerful, scalable, and easy to use. ✅ Fast. Secure. Always Connected.Upgrade your Wi-Fi experience with N Security Tech Solutions — because your network deserves expert care.`,
+    description: `Stay connected without interruptions! At N Security Tech Solutions, we provide professional Wi-Fi Access Point installation and configuration services that deliver strong, reliable wireless coverage for every corner of your space. Whether it’s an office, hotel, school, or warehouse, our team ensures your network runs fast, secure, and smooth — with no dead zones or dropouts. We configure your access points with optimized settings for speed, coverage, and security, including channel tuning, bandwidth control, and device management. From single AP setups to enterprise-level mesh and managed Wi-Fi systems, we make your wireless network powerful, scalable, and easy to use.\n ✅ Fast. Secure. Always Connected.Upgrade your Wi-Fi experience with N Security Tech Solutions — because your network deserves expert care.`,
   },
   {
     title: 'Managed & Unmanaged Switches — Power Your Network Everywhere',
     image: SwitchesImg,
-    description: `Keep your network fast, reliable, and secure with our managed and unmanaged switches. At N Security Tech Solutions, we provide professional setup and configuration for homes, offices, and industrial environments, ensuring seamless connectivity for every device. Managed switches give you full control, monitoring, and security for complex networks, while unmanaged switches provide plug-and-play simplicity for smaller setups. Whether it’s a smart home, modern office, or large industrial facility, our solutions ensure your network is stable, scalable, and always ready to support your growing digital needs. ✅ Reliable Connectivity. Full Control. Seamless Performance.`,
+    description: `Keep your network fast, reliable, and secure with our managed and unmanaged switches. At N Security Tech Solutions, we provide professional setup and configuration for homes, offices, and industrial environments, ensuring seamless connectivity for every device. Managed switches give you full control, monitoring, and security for complex networks, while unmanaged switches provide plug-and-play simplicity for smaller setups. Whether it’s a smart home, modern office, or large industrial facility, our solutions ensure your network is stable, scalable, and always ready to support your growing digital needs.\n ✅ Reliable Connectivity. Full Control. Seamless Performance.`,
   },
   {
-  title: 'Laptop & Desktop Sales, Service and AMC Support',
+  title: 'Laptop & Desktop Sales, Service',
   image: LaptopDesktopImg,
-  description: `NSTS (N Security Tech Solutions) provides laptop and desktop sales, repair services, system upgrades, and annual maintenance support for corporate offices, schools, and businesses. We supply quality systems, fix technical issues quickly, and provide regular maintenance to keep your computers running smoothly. Our goal is to deliver reliable service, affordable pricing, and long-term support so your work never stops. ✅ Quality Systems. Fast Repairs. Dependable Support.`,
+  description: `NSTS (N Security Tech Solutions) provides laptop and desktop sales, repair services, system upgrades, and annual maintenance support for corporate offices, schools, and businesses. We supply quality systems, fix technical issues quickly, and provide regular maintenance to keep your computers running smoothly. Our goal is to deliver reliable service, affordable pricing, and long-term support so your work never stops.\n ✅ Quality Systems. Fast Repairs. Dependable Support.`,
   },
   {
   title: 'Professional AMC Services for CCTV, Networking & IT Systems',
   image: AMCServicesImg,
-  description: `NSTS (N Security Tech Solutions) offers reliable Annual Maintenance Contract (AMC) services for CCTV systems, networking infrastructure, Wi-Fi access points, desktops, laptops, and biometric devices. We provide regular preventive maintenance, quick breakdown support, and system health checks to ensure smooth and uninterrupted operations. Our AMC plans reduce downtime, improve system performance, and give schools, offices, and businesses complete peace of mind with dependable technical support. ✅ Preventive Care. Quick Support. Peace of Mind.`,
+  description: `NSTS (N Security Tech Solutions) offers reliable Annual Maintenance Contract (AMC) services for CCTV systems, networking infrastructure, Wi-Fi access points, desktops, laptops, and biometric devices. We provide regular preventive maintenance, quick breakdown support, and system health checks to ensure smooth and uninterrupted operations. Our AMC plans reduce downtime, improve system performance, and give schools, offices, and businesses complete peace of mind with dependable technical support.\n✅ Preventive Care. Quick Support. Peace of Mind.`,
   },
   {
     title: 'Our Installation Promise',
@@ -63,15 +63,13 @@ const services = [
 • Smart Software Setup – Software and mobile apps configured for easy control, with full customer guidance.
 • Safety First – Strict precautions ensure the protection of both property and people.
 • Customer Satisfaction – Final system testing and walkthroughs guarantee complete peace of mind.
-👉 With N Security Tech Solutions, you get more than installation – you get quality, reliability, and lasting security.`,
+\n 👉 With N Security Tech Solutions, you get more than installation – you get quality, reliability, and lasting security.`,
   },
 ];
 
 const MenuPage = () => {
   return (
     <div className="menu-container">
-      {/* Top heading */}
-      <h1 className="page-title">Our Services</h1>
 
       {services.map((service, index) => (
         <div className="service-item" key={index}>

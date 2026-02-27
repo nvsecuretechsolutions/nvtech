@@ -53,6 +53,7 @@
 .social-icons {
   display: flex;
   gap: 10px; /* equal spacing between icons */
+  margin-right: 100px;
 }
 
 .social-icons a {
@@ -64,3 +65,16 @@
 .social-icons a:hover {
   color: lightblue;
 }
+
+.footer-address .social-icons {
+  margin-top: 10px; /* spacing between address and icons */
+}
+
+.footer-address{
+  margin-right: 150px;
+}
+
+.footer-address a {
+  white-space: nowrap;   /* keeps text on one line */
+}
+

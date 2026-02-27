@@ -11,10 +11,10 @@ import ServicesIcon from '../assets/services-icon.png';
 import SupportIcon from '../assets/support-icon.png';
 
 const icons = [
-  { label: 'Sales', icon: SaleIcon, path: '/sales' },
+  { label: 'Products', icon: SaleIcon, path: '/Products' },
   { label: 'Planning', icon: PlanningIcon },
   { label: 'Project Execution', icon: ProjectIcon },
-  { label: 'Services', icon: ServicesIcon, path: '/Menu' },
+  { label: 'Services', icon: ServicesIcon, path: '/services' },
   { label: 'Customer Support', icon: SupportIcon, path: '/Contact' },
 ];
 

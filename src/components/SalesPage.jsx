@@ -128,7 +128,7 @@ const groupedPackages = {
 const SalesPage = () => {
   return (
     <div className="sales-container">
-      <h1 className="page-title">Sales Page</h1>
+      <h1 className="page-title">Products Page</h1>
       {Object.entries(groupedPackages).map(([category, items], idx) => (
         <div key={idx} className="sales-category">
           <h2 className="category-title">{category}</h2>

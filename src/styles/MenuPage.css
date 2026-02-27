@@ -35,3 +35,8 @@
   max-width: 800px;
   margin: 0 auto;
 }
+
+/* MenuPage.css */
+.service-description {
+  white-space: pre-line;
+}

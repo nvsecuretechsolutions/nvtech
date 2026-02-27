@@ -34,8 +34,8 @@ function App() {
         <div className="content-wrapper">
           <Routes>
             <Route path="/" element={<HomePage />} />
-            <Route path="/menu" element={<MenuPage />} />
-            <Route path="/sales" element={<SalesPage />} />
+            <Route path="/services" element={<MenuPage />} />
+            <Route path="/products" element={<SalesPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="*" element={<HomePage />} /> {/* fallback */}
