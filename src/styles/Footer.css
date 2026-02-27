@@ -2,12 +2,19 @@
   background-color: teal !important;
   padding: 20px 0;
   display: flex;
-  justify-content: center;
+  justify-content: space-around; /* evenly space all sections */
+  align-items: flex-start; /* align items at the top */
+}
+
+.footer-links,
+.footer-address,
+.social-icons {
+  flex: 1; /* each section takes equal width */
+  text-align: left;
 }
 
 .footer-links {
-  text-align: left;
-  margin-right: 40px; /* spacing from social icons */
+  margin-left: 100px; /* extra space on the left side */
 }
 
 .footer-title {
@@ -27,12 +34,33 @@
   margin: 6px 0;
 }
 
-.footer-links ul li a {
-  color: white; /* links are white on teal background */
+.footer-links ul li a,
+.footer-address a {
+  color: white; /* links and address are white by default */
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
-.footer-links ul li a:hover {
-  color: lightblue; /* hover effect matches your icons */
+.footer-links ul li a:hover,
+.footer-address a:hover {
+  color: lightblue; /* hover effect */
+}
+
+.footer-address {
+  text-align: left;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* equal spacing between icons */
+}
+
+.social-icons a {
+  color: white;
+  font-size: 20px;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: lightblue;
 }

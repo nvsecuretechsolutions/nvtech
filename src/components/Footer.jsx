@@ -18,6 +18,18 @@ const Footer = () => {
         </ul>
       </div>
 
+      <div className="footer-address">
+        <h3 className="footer-title">Our Address</h3>
+        <a href="https://www.google.com/maps/search/?api=1&query=BHUMI+PLOT+NO+429,+ROAD+NO+9,+KAKATEEYA+HILLS,+Madhapur,+Hyderabad,+50008" 
+        target="_blank" 
+        rel="noopener noreferrer"
+        >
+        BHUMI PLOT NO 429, ROAD NO 9,<br />
+        KAKATEEYA HILLS, Madhapur,<br />
+        Hyderabad, Pincode 50008
+        </a>
+      </div>
+
       <div className="social-icons">
         <a href="https://www.instagram.com/nvsecuretech4all/" target="_blank" rel="noopener noreferrer">
           <FaInstagram className="icon" />
