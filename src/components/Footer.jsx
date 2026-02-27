@@ -1,7 +1,7 @@
 // Footer.js
 import React from 'react';
 import '../styles/Footer.css';
-import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook } from 'react-icons/fa';
+import { FaInstagram, FaLinkedin, FaTwitter, FaFacebook, FaWhatsapp } from 'react-icons/fa';
 import { Link } from 'react-router-dom'; // Import Link for navigation
 
 const Footer = () => {
@@ -30,6 +30,9 @@ const Footer = () => {
         </a>
         <a href="https://www.facebook.com/share/1B9CzgjVWY/" target="_blank" rel="noopener noreferrer">
           <FaFacebook className="icon" />
+        </a>
+        <a href="https://wa.me/+919292314020" target="_blank" rel="noopener noreferrer">
+          <FaWhatsapp className="icon" />
         </a>
       </div>
     </footer>

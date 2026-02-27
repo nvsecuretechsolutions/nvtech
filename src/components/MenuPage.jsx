@@ -10,6 +10,8 @@ import NetworkingImg from '../assets/networking.jpg';
 import WifiImg from '../assets/wifi.jpg';
 import SwitchesImg from '../assets/switches.jpg';
 import SettingsImg from '../assets/settings.jpg';
+import LaptopDesktopImg from '../assets/LaptopDesktop.jpg';
+import AMCServicesImg from '../assets/AMCServices.jpg';
 
 const services = [
   {
@@ -41,6 +43,16 @@ const services = [
     title: 'Managed & Unmanaged Switches — Power Your Network Everywhere',
     image: SwitchesImg,
     description: `Keep your network fast, reliable, and secure with our managed and unmanaged switches. At N Security Tech Solutions, we provide professional setup and configuration for homes, offices, and industrial environments, ensuring seamless connectivity for every device. Managed switches give you full control, monitoring, and security for complex networks, while unmanaged switches provide plug-and-play simplicity for smaller setups. Whether it’s a smart home, modern office, or large industrial facility, our solutions ensure your network is stable, scalable, and always ready to support your growing digital needs. ✅ Reliable Connectivity. Full Control. Seamless Performance.`,
+  },
+  {
+  title: 'Laptop & Desktop Sales, Service and AMC Support',
+  image: LaptopDesktopImg,
+  description: `NSTS (N Security Tech Solutions) provides laptop and desktop sales, repair services, system upgrades, and annual maintenance support for corporate offices, schools, and businesses. We supply quality systems, fix technical issues quickly, and provide regular maintenance to keep your computers running smoothly. Our goal is to deliver reliable service, affordable pricing, and long-term support so your work never stops. ✅ Quality Systems. Fast Repairs. Dependable Support.`,
+  },
+  {
+  title: 'Professional AMC Services for CCTV, Networking & IT Systems',
+  image: AMCServicesImg,
+  description: `NSTS (N Security Tech Solutions) offers reliable Annual Maintenance Contract (AMC) services for CCTV systems, networking infrastructure, Wi-Fi access points, desktops, laptops, and biometric devices. We provide regular preventive maintenance, quick breakdown support, and system health checks to ensure smooth and uninterrupted operations. Our AMC plans reduce downtime, improve system performance, and give schools, offices, and businesses complete peace of mind with dependable technical support. ✅ Preventive Care. Quick Support. Peace of Mind.`,
   },
   {
     title: 'Our Installation Promise',
