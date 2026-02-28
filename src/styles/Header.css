@@ -1,25 +1,82 @@
-
 .main-header {
-  background-color: teal;     
+  background-color: teal;
   padding: 15px 40px;
   display: flex;
-  justify-content: flex-end;           /* 🔧 align to right */
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
 }
 
 .nav-links {
   display: flex;
-  gap: 40px;                            /* 🔧 equal spacing */
+  gap: 40px;
 }
 
 .nav-link {
-  color: white;                         /* 🔧 white text */
-  text-decoration: none;                /* 🔧 no underline */
+  color: white;
+  text-decoration: none;
   font-size: 1.1rem;
   font-weight: bold;
 }
 
 .nav-link:hover {
-  color: lightblue;                     /* Optional: hover effect */
+  color: lightblue;
 }
 
+.menu-toggle {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25px;
+  height: 20px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 
+.menu-toggle .bar {
+  height: 3px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2px;
+}
+
+@media (max-width: 768px) {
+  .main-header {
+    justify-content: flex-start;
+    padding: 10px 20px;
+  }
+
+  .menu-toggle {
+    display: flex;
+  }
+
+  .nav-links {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: teal;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 15px;
+    width: 200px;
+
+    /* Hidden by default */
+    transform: translateX(-100%);
+    opacity: 0;
+    pointer-events: none;
+
+    /* Smooth transition */
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
+    /* Ensure menu is above other content */
+    z-index: 1000;
+  }
+
+  .nav-links.open {
+    transform: translateX(0);
+    opacity: 1;
+    pointer-events: auto;
+  }
+}

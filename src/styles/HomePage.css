@@ -83,3 +83,29 @@
   text-align: center; /* center the title */
 }
 
+/* Mobile view adjustments */
+@media (max-width: 768px) {
+  .icon-row {
+    flex-wrap: wrap;            /* Allow icons to wrap to next line */
+    justify-content: center;    /* Center icons on smaller screens */
+    gap: 15px;                  /* Slightly smaller gap */
+  }
+
+  .icon-item {
+    flex: 0 1 45%;              /* Each icon takes ~45% width */
+    max-width: none;            /* Remove fixed max-width */
+  }
+
+  .custom-icon {
+    width: 56px;                /* Slightly smaller icons */
+    height: 56px;
+  }
+
+  .icon-label {
+    font-size: 0.9rem;          /* Slightly smaller text */
+    word-wrap: break-word;      /* Ensure long labels break nicely */
+    text-align: center;
+  }
+}
+
+

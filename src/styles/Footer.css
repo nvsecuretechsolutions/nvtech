@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-around; /* evenly space all sections */
   align-items: flex-start; /* align items at the top */
+  flex-wrap: wrap; /* allow wrapping if needed */
 }
 
 .footer-links,
@@ -20,7 +21,7 @@
 .footer-title {
   font-size: 20px;
   font-weight: bold;
-  color: white; /* title stays white on teal background */
+  color: white;
   margin-bottom: 10px;
 }
 
@@ -36,14 +37,14 @@
 
 .footer-links ul li a,
 .footer-address a {
-  color: white; /* links and address are white by default */
+  color: white;
   text-decoration: none;
   transition: color 0.3s ease;
 }
 
 .footer-links ul li a:hover,
 .footer-address a:hover {
-  color: lightblue; /* hover effect */
+  color: lightblue;
 }
 
 .footer-address {
@@ -52,7 +53,7 @@
 
 .social-icons {
   display: flex;
-  gap: 10px; /* equal spacing between icons */
+  gap: 10px;
   margin-right: 100px;
 }
 
@@ -67,14 +68,50 @@
 }
 
 .footer-address .social-icons {
-  margin-top: 10px; /* spacing between address and icons */
+  margin-top: 10px;
 }
 
-.footer-address{
+.footer-address {
   margin-right: 150px;
 }
 
 .footer-address a {
-  white-space: nowrap;   /* keeps text on one line */
+  white-space: nowrap;
 }
 
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column; /* stack sections vertically */
+    align-items: center;    /* center content */
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-links,
+  .footer-address,
+  .social-icons {
+    flex: none;       /* remove equal width */
+    margin: 10px 0;   /* spacing between sections */
+    text-align: center;
+  }
+
+  .footer-links {
+    margin-left: 0;   /* remove desktop left margin */
+  }
+
+  .social-icons {
+    margin-right: 0;  /* remove desktop right margin */
+    justify-content: center;
+    margin-top: 20px; /* <-- extra space above icons */
+  }
+
+  .footer-address {
+    margin-right: 0;  /* remove desktop right margin */
+    margin-bottom: 20px; /* <-- extra space below address */
+  }
+
+  .footer-address a {
+    white-space: normal; /* allow wrapping on small screens */
+  }
+}
