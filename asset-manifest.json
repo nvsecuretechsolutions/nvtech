@@ -1,23 +1,31 @@
 {
   "files": {
-    "main.css": "/nvtech/static/css/main.96f1b85c.css",
-    "main.js": "/nvtech/static/js/main.61aebe01.js",
+    "main.css": "/nvtech/static/css/main.85ad1bed.css",
+    "main.js": "/nvtech/static/js/main.3bebf5b0.js",
     "static/js/453.019bc968.chunk.js": "/nvtech/static/js/453.019bc968.chunk.js",
+    "static/media/ourDesktop.jpg": "/nvtech/static/media/ourDesktop.926c1a5ce1a62f4cba70.jpg",
     "static/media/LaptopDesktop.jpg": "/nvtech/static/media/LaptopDesktop.fea5dfc20c56046708e6.jpg",
     "static/media/AMCServices.jpg": "/nvtech/static/media/AMCServices.d1eb1bec21c6dd3e2a23.jpg",
     "static/media/networking.jpg": "/nvtech/static/media/networking.bfb73dc47d78f39a776c.jpg",
     "static/media/aboutimage.jpg": "/nvtech/static/media/aboutimage.7897750cfde17edcfc32.jpg",
     "static/media/hikvision-ip.jpg": "/nvtech/static/media/hikvision-ip.95fa5e149e08b912fa23.jpg",
     "static/media/door-access.jpg": "/nvtech/static/media/door-access.c516f31b9bbe92e6f813.jpg",
+    "static/media/laptop-desktop.jpg": "/nvtech/static/media/laptop-desktop.a6f8b759a56fb22927cb.jpg",
     "static/media/switches.jpg": "/nvtech/static/media/switches.890b693c89b6b2cca25b.jpg",
     "static/media/settings.jpg": "/nvtech/static/media/settings.bd42d8a6a3ae0a90c101.jpg",
+    "static/media/Managedswitches.jpg": "/nvtech/static/media/Managedswitches.6ee8963199e524f6f2cf.jpg",
     "static/media/wifi.jpg": "/nvtech/static/media/wifi.080ab51abd764e16fbc0.jpg",
+    "static/media/networkingSolutions.jpg": "/nvtech/static/media/networkingSolutions.516155da7b4e9594f8c9.jpg",
+    "static/media/laptopServices.jpg": "/nvtech/static/media/laptopServices.3e888d1edc3bfe90c506.jpg",
     "static/media/services-icon.png": "/nvtech/static/media/services-icon.e29d807cfcff7c3581b6.png",
     "static/media/planning-icon.png": "/nvtech/static/media/planning-icon.5fbc9c78e2111f3faaf0.png",
     "static/media/project-icon.png": "/nvtech/static/media/project-icon.e449662c636c51132864.png",
     "static/media/surveillance.jpg": "/nvtech/static/media/surveillance.d1b556a7b4bb453e5fdf.jpg",
     "static/media/biometric.jpg": "/nvtech/static/media/biometric.e9d4193326b219225154.jpg",
+    "static/media/doorlock.jpg": "/nvtech/static/media/doorlock.e51e8e5e9c3826b1ee8f.jpg",
+    "static/media/wifiAccess.jpg": "/nvtech/static/media/wifiAccess.23b9f378c451146c5e13.jpg",
     "static/media/support-icon.png": "/nvtech/static/media/support-icon.0623b457280b9a02e225.png",
+    "static/media/biometricdevices.jpg": "/nvtech/static/media/biometricdevices.b6f9e9866bbd146d6473.jpg",
     "static/media/cpplus-wireless.jpg": "/nvtech/static/media/cpplus-wireless.69d436ea43fbfa51f056.jpg",
     "static/media/prizor-ip.jpg": "/nvtech/static/media/prizor-ip.2aa2014c44c9f1236e60.jpg",
     "static/media/sale-icon.png": "/nvtech/static/media/sale-icon.c022ee5cca257e137083.png",
@@ -27,13 +35,14 @@
     "static/media/cpplus-ip.jpg": "/nvtech/static/media/cpplus-ip.d3f2c6282f69150e379f.jpg",
     "static/media/cpplus-hd.jpg": "/nvtech/static/media/cpplus-hd.a82d515780c97d1af3be.jpg",
     "static/media/hikvision-hd.jpg": "/nvtech/static/media/hikvision-hd.4d218f8c9c6f879865ec.jpg",
+    "static/media/bSurveillance.jpg": "/nvtech/static/media/bSurveillance.d1e92c7e2dbb81738bdb.jpg",
     "index.html": "/nvtech/index.html",
-    "main.96f1b85c.css.map": "/nvtech/static/css/main.96f1b85c.css.map",
-    "main.61aebe01.js.map": "/nvtech/static/js/main.61aebe01.js.map",
+    "main.85ad1bed.css.map": "/nvtech/static/css/main.85ad1bed.css.map",
+    "main.3bebf5b0.js.map": "/nvtech/static/js/main.3bebf5b0.js.map",
     "453.019bc968.chunk.js.map": "/nvtech/static/js/453.019bc968.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.96f1b85c.css",
-    "static/js/main.61aebe01.js"
+    "static/css/main.85ad1bed.css",
+    "static/js/main.3bebf5b0.js"
   ]
 }
