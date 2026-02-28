@@ -8,6 +8,7 @@ import ContactPage from './components/ContactPage';
 import AboutPage from './components/AboutPage'; 
 import MenuPage from './components/MenuPage'; 
 import SalesPage from './components/SalesPage';
+import BlogPage from './components/BlogPage';
 import './App.css';
 
 // Redirect handler component
@@ -38,6 +39,7 @@ function App() {
             <Route path="/products" element={<SalesPage />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
+            <Route path="/blog" element={<BlogPage />} />
             <Route path="*" element={<HomePage />} /> {/* fallback */}
           </Routes>
         </div>

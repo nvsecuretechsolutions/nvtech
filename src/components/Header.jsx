@@ -28,6 +28,7 @@ const Header = () => {
         <Link to="/products" className="nav-link" onClick={closeMenu}>Products</Link>
         <Link to="/about" className="nav-link" onClick={closeMenu}>About</Link>
         <Link to="/contact" className="nav-link" onClick={closeMenu}>Contact</Link>
+        <Link to="/blog" className="nav-link" onClick={closeMenu}>Blog</Link>
       </nav>
     </header>
   );
