@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Home page -->
+  <url>
+    <loc>https://nsecuritytechsolutions.com/</loc>
+  </url>
+
+  <!-- Services page -->
+  <url>
+    <loc>https://nsecuritytechsolutions.com/services</loc>
+  </url>
+
+  <!-- Products page -->
+  <url>
+    <loc>https://nsecuritytechsolutions.com/products</loc>
+  </url>
+
+  <!-- About page -->
+  <url>
+    <loc>https://nsecuritytechsolutions.com/about</loc>
+  </url>
+
+  <!-- Contact page -->
+  <url>
+    <loc>https://nsecuritytechsolutions.com/contact</loc>
+  </url>
+</urlset>

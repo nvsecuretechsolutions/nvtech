@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nvtech/static/css/main.9ed026da.css",
-    "main.js": "/nvtech/static/js/main.549c40c6.js",
+    "main.css": "/nvtech/static/css/main.96f1b85c.css",
+    "main.js": "/nvtech/static/js/main.7a1b8840.js",
     "static/js/453.019bc968.chunk.js": "/nvtech/static/js/453.019bc968.chunk.js",
     "static/media/LaptopDesktop.jpg": "/nvtech/static/media/LaptopDesktop.fea5dfc20c56046708e6.jpg",
     "static/media/AMCServices.jpg": "/nvtech/static/media/AMCServices.d1eb1bec21c6dd3e2a23.jpg",
@@ -28,12 +28,12 @@
     "static/media/cpplus-hd.jpg": "/nvtech/static/media/cpplus-hd.a82d515780c97d1af3be.jpg",
     "static/media/hikvision-hd.jpg": "/nvtech/static/media/hikvision-hd.4d218f8c9c6f879865ec.jpg",
     "index.html": "/nvtech/index.html",
-    "main.9ed026da.css.map": "/nvtech/static/css/main.9ed026da.css.map",
-    "main.549c40c6.js.map": "/nvtech/static/js/main.549c40c6.js.map",
+    "main.96f1b85c.css.map": "/nvtech/static/css/main.96f1b85c.css.map",
+    "main.7a1b8840.js.map": "/nvtech/static/js/main.7a1b8840.js.map",
     "453.019bc968.chunk.js.map": "/nvtech/static/js/453.019bc968.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ed026da.css",
-    "static/js/main.549c40c6.js"
+    "static/css/main.96f1b85c.css",
+    "static/js/main.7a1b8840.js"
   ]
 }
