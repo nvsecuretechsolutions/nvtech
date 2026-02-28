@@ -2,26 +2,26 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <!-- Home page -->
   <url>
-    <loc>https://nvsecuretechsolutions.github.io/nvtech/</loc>
+    <loc>https://nsecuritytechsolutions.com/</loc>
   </url>
 
   <!-- Services page -->
   <url>
-    <loc>https://nvsecuretechsolutions.github.io/nvtech/services</loc>
+    <loc>https://nsecuritytechsolutions.com/services</loc>
   </url>
 
   <!-- Products page -->
   <url>
-    <loc>https://nvsecuretechsolutions.github.io/nvtech/products</loc>
+    <loc>https://nsecuritytechsolutions.com/products</loc>
   </url>
 
   <!-- About page -->
   <url>
-    <loc>https://nvsecuretechsolutions.github.io/nvtech/about</loc>
+    <loc>https://nsecuritytechsolutions.com/about</loc>
   </url>
 
   <!-- Contact page -->
   <url>
-    <loc>https://nvsecuretechsolutions.github.io/nvtech/contact</loc>
+    <loc>https://nsecuritytechsolutions.com/contact</loc>
   </url>
 </urlset>
