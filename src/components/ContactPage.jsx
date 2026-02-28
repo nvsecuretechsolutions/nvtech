@@ -22,7 +22,7 @@ const ContactPage = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
 
-    const formSubmitUrl = 'https://formsubmit.co/ajax/nvsecuretechsolutions@gmail.com'; // Make sure this is verified
+    const formSubmitUrl = 'https://formsubmit.co/ajax/info@nsecuritytechsolutions.com'; // Make sure this is verified
 
     try {
       const response = await fetch(formSubmitUrl, {
