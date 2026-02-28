@@ -1,10 +1,16 @@
 import React from 'react';
 import '../styles/AboutPage.css';        // Make sure the path is correct
-import AboutImage from '../assets/aboutimage.jpg';  // Replace with your actual image path
+import AboutImage from '../assets/aboutimage.jpg';  
+import { Helmet } from 'react-helmet';
 
 const AboutPage = () => {
   return (
     <div className="about-container">
+      <Helmet>
+        <title>About Us - N Security Tech Solutions</title>
+        <meta name="description" content="N Security Tech Solutions provides enterprise-grade CCTV surveillance, biometric access, door control, networking, and IT services. We deliver peace of mind through secure, reliable technology." />
+        <meta name="keywords" content="About N Security Tech Solutions, CCTV surveillance, biometric devices, door access control, networking, IT services" />
+      </Helmet>
       {/* Image at the top */}
       <img src={AboutImage} alt="About NV Secure Tech Solutions" className="about-image" />
 

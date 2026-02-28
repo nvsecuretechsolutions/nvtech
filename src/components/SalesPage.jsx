@@ -1,6 +1,7 @@
 // SalesPage.js
 import React from 'react';
 import '../styles/SalesPage.css';
+import { Helmet } from 'react-helmet';
 
 // Import images (replace with your actual image paths)
 import HikvisionIpImg from '../assets/hikvision-ip.jpg';
@@ -128,6 +129,11 @@ const groupedPackages = {
 const SalesPage = () => {
   return (
     <div className="sales-container">
+      <Helmet>
+        <title>Sales Page - CCTV & Security Packages | N Security Tech Solutions</title>
+        <meta name="description" content="Browse our CCTV combo packages including Hikvision, CP Plus, Uniview, and Prizor. Options available for IP cameras, HD/Analog systems, and wireless solutions." />
+        <meta name="keywords" content="CCTV sales, Hikvision IP cameras, CP Plus HD cameras, Uniview NVR, Prizor security systems, wireless CCTV packages" />
+      </Helmet>
       <h1 className="page-title">Products Page</h1>
       {Object.entries(groupedPackages).map(([category, items], idx) => (
         <div key={idx} className="sales-category">

@@ -2,6 +2,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';  // Import Link from react-router-dom
 import '../styles/HomePage.css';
+import { Helmet } from 'react-helmet';
 
 // Import your custom icons (update paths as needed)
 import SaleIcon from '../assets/sale-icon.png';
@@ -21,6 +22,12 @@ const icons = [
 const HomePage = () => {
   return (
     <div className="home-container">
+      <Helmet>
+        <title>N Security Tech Solutions - Home</title>
+         <meta name="description"
+         content="Welcome to N Security Tech Solutions. We provide CCTV surveillance, biometric security, access control, Wi-Fi setup, laptops, desktops, and networking solutions for residential, commercial, and industrial sectors."/>
+      </Helmet>
+
       {/* Welcome section */}
       <div className="overlay">
         <h1 className="main-title">Welcome to N Security Tech Solutions!</h1>

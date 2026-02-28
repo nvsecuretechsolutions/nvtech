@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '../styles/ContactPage.css';
+import { Helmet } from 'react-helmet';
 
 const ContactPage = () => {
   const [formData, setFormData] = useState({
@@ -63,6 +64,11 @@ const ContactPage = () => {
 
   return (
     <div className="contact-page">
+      <Helmet>
+        <title>Contact Us - N Security Tech Solutions</title>
+        <meta name="description" content="Reach out to N Security Tech Solutions for CCTV installation, biometric access, networking, Wi-Fi setup, and IT support. Fill out our contact form for quick assistance." />
+        <meta name="keywords" content="contact CCTV installer, biometric access support, networking services, Wi-Fi setup help, IT support, N Security Tech Solutions" />
+      </Helmet>
       <h2>Contact Us</h2>
 
       <form className="contact-form" onSubmit={handleSubmit}>

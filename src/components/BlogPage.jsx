@@ -9,10 +9,16 @@ import ManagedswitchesImage from '../assets/Managedswitches.jpg';
 import laptopdesktopImage from '../assets/laptop-desktop.jpg';
 import laptopServicesImage from '../assets/laptopServices.jpg';
 import ourDesktopImage from '../assets/ourDesktop.jpg';
+import { Helmet } from 'react-helmet';
 
 const BlogPage = () => {
   return (
     <div className="blog-container">
+      <Helmet>
+        <title>Blog - Security & IT Solutions | N Security Tech Solutions</title>
+        <meta name="description" content="Read our blog to learn about CCTV surveillance, biometric devices, networking solutions, smart door locks, Wi-Fi access points, switches, and IT services." />
+        <meta name="keywords" content="CCTV blog, surveillance systems, networking solutions, biometric devices, smart door locks, Wi-Fi access points, managed switches, laptop desktop services" />
+      </Helmet>
       <header className="blog-header">
         <h1>N Security Tech Solutions — Protect. Connect. Simplify.</h1>
       </header>

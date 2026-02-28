@@ -1,7 +1,7 @@
 // MenuPage.js
 import React from 'react';
 import '../styles/MenuPage.css';
-
+import { Helmet } from 'react-helmet';
 // Import images (replace with your actual image paths)
 import SurveillanceImg from '../assets/surveillance.jpg';
 import BiometricImg from '../assets/biometric.jpg';
@@ -70,6 +70,11 @@ const services = [
 const MenuPage = () => {
   return (
     <div className="menu-container">
+
+      <Helmet>
+        <title>Our Services - N Security Tech Solutions</title>
+        <meta name="description" content="Explore our professional services including CCTV installation, biometric security, networking, Wi-Fi setup, and AMC support." />
+      </Helmet>
 
       {services.map((service, index) => (
         <div className="service-item" key={index}>
