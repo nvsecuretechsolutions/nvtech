@@ -28,7 +28,7 @@ function RedirectHandler() {
 
 function App() {
   return (
-    <Router basename="/"> {/* remove basename if deployed at root */}
+    <Router>
       <RedirectHandler />
       <div className="app-container">
         <Header />
