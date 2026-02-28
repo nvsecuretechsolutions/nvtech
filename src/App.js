@@ -28,7 +28,7 @@ function RedirectHandler() {
 
 function App() {
   return (
-    <Router basename="/nvtech"> {/* remove basename if deployed at root */}
+    <Router basename="/"> {/* remove basename if deployed at root */}
       <RedirectHandler />
       <div className="app-container">
         <Header />
