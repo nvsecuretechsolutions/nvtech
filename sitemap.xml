@@ -24,4 +24,10 @@
   <url>
     <loc>https://nsecuritytechsolutions.com/contact</loc>
   </url>
+
+   <!-- Blog page -->
+  <url>
+    <loc>https://nsecuritytechsolutions.com/blog</loc>
+  </url>
+
 </urlset>
