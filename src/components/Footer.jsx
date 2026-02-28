@@ -25,8 +25,8 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-           BHUMI PLOT NO 429, ROAD NO 9, KAKATEEYA HILLS, Madhapur,<br />
-           Hyderabad, Pincode 50008
+           Bhumi Plot No: 429, Road No 9, Kakateeya Hills, Madhapur,<br />
+           Hyderabad. Pincode 500081
         </a>
       </div>
 
