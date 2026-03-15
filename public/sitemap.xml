@@ -7,27 +7,26 @@
 
   <!-- Services page -->
   <url>
-    <loc>https://nsecuritytechsolutions.com/services</loc>
+    <loc>https://nsecuritytechsolutions.com/services/</loc>
   </url>
 
   <!-- Products page -->
   <url>
-    <loc>https://nsecuritytechsolutions.com/products</loc>
+    <loc>https://nsecuritytechsolutions.com/products/</loc>
   </url>
 
   <!-- About page -->
   <url>
-    <loc>https://nsecuritytechsolutions.com/about</loc>
+    <loc>https://nsecuritytechsolutions.com/about/</loc>
   </url>
 
   <!-- Contact page -->
   <url>
-    <loc>https://nsecuritytechsolutions.com/contact</loc>
+    <loc>https://nsecuritytechsolutions.com/contact/</loc>
   </url>
 
-   <!-- Blog page -->
+  <!-- Blog page -->
   <url>
-    <loc>https://nsecuritytechsolutions.com/blog</loc>
+    <loc>https://nsecuritytechsolutions.com/blog/</loc>
   </url>
-
 </urlset>
